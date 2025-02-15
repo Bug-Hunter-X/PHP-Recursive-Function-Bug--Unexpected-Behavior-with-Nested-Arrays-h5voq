@@ -1,0 +1,5 @@
+# PHP Recursive Function Bug: Unexpected Behavior with Nested Arrays
+
+This repository demonstrates a common bug encountered when working with recursive functions in PHP that process nested arrays. The provided `bug.php` file contains a recursive function, `processData`, that aims to process elements within a nested array structure. The function performs a simple operation (doubling the value) on each individual element. However, it may not be fully robust for all types of input arrays or complex nesting levels.
+
+The `bugSolution.php` provides a solution to address the bug. It demonstrates how to enhance the recursive function's robustness by improving its input validation and handling of diverse array structures. It is advisable to test the corrected function extensively to ensure it functions correctly for complex scenarios and diverse data types.
